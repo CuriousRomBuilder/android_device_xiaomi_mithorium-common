@@ -7,7 +7,7 @@
 COMMON_PATH := device/xiaomi/mithorium-common
 
 # APEX
-OVERRIDE_TARGET_FLATTEN_APEX := true
+DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Architecture
 TARGET_ARCH := arm64
